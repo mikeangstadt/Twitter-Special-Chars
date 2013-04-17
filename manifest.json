@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Special Chars",
+  "description": "This extension add a special character toolbar to Twitter",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "https://www.twitter.com/",
+	"https://twitter.com/"
+  ],
+  "browser_action": {
+    "default_icon": "popup.png",
+    "default_popup": "popup.html"
+  }
+}
